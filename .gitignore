@@ -131,4 +131,4 @@ dmypy.json
 
 
 # ignorar la carpeta de la base de datos
-db_data /
+db_data
