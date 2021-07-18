@@ -9,4 +9,7 @@ def victorCreado(request):
     return HttpResponse("Hola soy victor")
 
 def valenPage(request):
-    return HttpResponse("Hola, soy la pagina web de Valentina")    
+    return HttpResponse("Hola, soy la pagina web de Valentina") 
+
+def diego(request):
+    return HttpResponse("Hola soy Diego Barale del team 5")   
