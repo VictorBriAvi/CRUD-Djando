@@ -4,3 +4,6 @@ from django.shortcuts import render, HttpResponse
 
 def home(request):
     return HttpResponse("Team 5, Codo a Codo")
+
+def victorCreado(request):
+    return HttpResponse("Hola soy victor")
