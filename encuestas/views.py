@@ -7,3 +7,6 @@ def home(request):
 
 def victorCreado(request):
     return HttpResponse("Hola soy victor")
+
+def valenPage(request):
+    return HttpResponse("Hola, soy la pagina web de Valentina")    
