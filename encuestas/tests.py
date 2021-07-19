@@ -19,6 +19,12 @@ class MyIntegrationTest(TestCase):
         response = self.client.get("/victor/")
         self.assertContains(response, "Hola soy victor")
 
+
     def testYonier(self):
         response = self.client.get("/yonierPage/")
         self.assertContains(response, "Hola soy Yonier")
+        
+    def testValen(self):
+        response = self.client.get("/valen/")
+        self.assertContains(response, "Hola soy Valen")
+
