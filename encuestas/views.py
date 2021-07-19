@@ -37,3 +37,6 @@ def valenPage(request):
 def diego(request):
     return HttpResponse("Hola soy Diego Barale del team 5")   
 
+def contribuidores(request):
+    return render(request, 'encuestas/index.html')
+

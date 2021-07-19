@@ -20,7 +20,8 @@ from encuestas import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
-    path('victor/', views.victorCreado),
-    path('valen/', views.valenPage),
-    path('diego/', views.diego),
+    path('victor/', views.victorCreado, name="victor"),
+    path('valen/', views.valenPage, name="valen"),
+    path('diego/', views.diego, name='diego'),
+    path('contribuidores', views.contribuidores),
 ]
