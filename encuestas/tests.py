@@ -22,7 +22,7 @@ class MyIntegrationTest(TestCase):
 
     def testYonier(self):
         response = self.client.get("/yonierPage/")
-        self.assertContains(response, "Hola soy Yonier")
+        self.assertContains(response, "Hola, yo soy Yonier del team 5")
         
     def testValen(self):
         response = self.client.get("/valen/")
