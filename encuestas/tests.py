@@ -17,3 +17,7 @@ class MyIntegrationTest(TestCase):
     def testDiego(self):
         response = self.client.get("/diego/")
         self.assertContains(response, "Hola soy Diego Barale del team 5")
+        
+    def testVictor(self):
+        response = self.client.get("/victor/")
+        self.assertContains(response, "Hola soy victor")
