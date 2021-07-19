@@ -4,7 +4,7 @@ from django.shortcuts import render, HttpResponse
 
 def home(request):
     return HttpResponse("Team 5, Codo a Codo")
-
+    
 def victorCreado(request):
     return HttpResponse("Hola soy victor")
 
@@ -13,3 +13,4 @@ def valenPage(request):
 
 def diego(request):
     return HttpResponse("Hola soy Diego Barale del team 5")   
+
