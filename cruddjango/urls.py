@@ -23,5 +23,5 @@ urlpatterns = [
     path('victor/', views.victorCreado),
     path('valen/', views.valenPage),
     path('diego/', views.diego),
-    path('yonierPage', views.yonierPage)
+    path('yonierPage/', views.yonierPage)
 ]
