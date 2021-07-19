@@ -37,3 +37,5 @@ def valenPage(request):
 def diego(request):
     return HttpResponse("Hola soy Diego Barale del team 5")   
 
+def yonierPage(request):
+    return HttpResponse("Hola, yo soy Yonier del team 5")

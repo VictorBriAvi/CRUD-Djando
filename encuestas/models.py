@@ -7,4 +7,4 @@ class User(models.Model):
     apellido = models.CharField(max_length=40)
     email = models.EmailField(max_length=64)
     edad = models.BigIntegerField()
-    
+    telefono = models.IntegerField()
